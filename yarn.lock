@@ -4340,7 +4340,7 @@
     "signal-exit" "^3.0.0"
     "strip-eof" "^1.0.0"
 
-"execa@^5.0.0", "execa@^5.1.1":
+"execa@^5.0.0", "execa@^5.1.1", "execa@latest":
   "integrity" "sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg=="
   "resolved" "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz"
   "version" "5.1.1"

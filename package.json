@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "homepage": "http://fariborzemami.github.io/benefitCalculator",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d dist -b master",
+    "deploy": "node deploy.js",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
@@ -16,6 +14,7 @@
     "@babel/polyfill": "^7.4.4",
     "@mdi/font": "5.9.55",
     "core-js": "^3.8.3",
+    "execa": "latest",
     "register-service-worker": "^1.7.2",
     "roboto-fontface": "*",
     "vue": "^2.6.14",
