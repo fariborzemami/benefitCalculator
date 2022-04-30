@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "homepage": "http://fariborzemami.github.io/benefitCalculator",
+    "predeploy": "npm run build",
+    "deploy": "npm run build && gh-pages -d dist -b master",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
@@ -41,6 +44,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-vue": "^8.0.3",
+    "gh-pages": "^3.2.3",
     "jest": "^27.0.5",
     "lint-staged": "^11.1.2",
     "sass": "^1.32.7",
