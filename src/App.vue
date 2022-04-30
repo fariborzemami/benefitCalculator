@@ -10,7 +10,7 @@
           alt="Vuetify Logo"
           class="shrink mr-2 white--text"
           contain
-          src="/img/calculator.svg"
+          src="../public/img/calculator.svg"
           transition="scale-transition"
           width="40"
         />
