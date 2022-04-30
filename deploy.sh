@@ -8,5 +8,5 @@ cd dist
 # if you are deploying to a custom domain
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:username/hello-world.git master:gh-pages
+git push -f git@github.com:fariborzemami/benefitCalculator.git master:gh-pages
 cd -
